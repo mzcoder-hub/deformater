@@ -1,19 +1,19 @@
-# date-formatter
+# dformater
 
 A Node.js package to easily format dates into "dd M Y" format with the option to set the timezone dynamically.
 
 ## Installation
 
-You can install `date-formatter` using npm:
+You can install `dformater` using npm:
 
 ```bash
-npm install date-formatter
+npm install dformater
 ```
 
 ## Usage
 
 ```javascript
-const formatDate = require("date-formatter");
+const formatDate = require("dformater");
 
 const date = new Date(); // Current date and time
 const formattedDate = formatDate(date, "America/New_York", "en-US");
@@ -33,7 +33,7 @@ Formats a given date into the desired format.
 ### Example
 
 ```javascript
-const formatDate = require("date-formatter");
+const formatDate = require("dformater");
 
 const date = new Date(); // Current date and time
 const formattedDate = formatDate(date, "America/New_York", "en-US");
