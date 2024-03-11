@@ -1,0 +1,16 @@
+{
+  "name": "dformater",
+  "version": "1.0.0",
+  "module": "commonjs",
+  "description": "A Node.js package to easily format dates into 'dd M Y' format with the option to set the timezone dynamically.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
