@@ -14,7 +14,7 @@ npm install dformater
 
 ## Usage
 
-This is usage for dformater, theres a feature that you can try the list will be listed below :
+This is usage for dformater, theres a feature that you can try the list will be listed below in the time being :
 
 - Change Format Date to d M Y
 - Extract date into object {day, month, year}
@@ -50,7 +50,9 @@ Formats a given date into the desired format.
 - locale (optional): The locale to use for formatting. Defaults to "en-US".
 
 ## Change Log
+
 `12/03/2023`
+
 - Deploy dformater for production
 - update readme.md for better understanding the package
 - add api usage
