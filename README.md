@@ -12,12 +12,12 @@ npm install dformater
 
 ## Usage
 
-This is usage for dformater, its basic and its easy for user to contribute to, theres a feature that you can try the list will be listed below :
+This is usage for dformater, theres a feature that you can try the list will be listed below :
 
 - Change Format Date to d M Y
 - Extract date into object {day, month, year}
 
-### Format Date into d M Y
+#### Format Date into d M Y
 
 ```javascript
 const formatDate = require("dformater");
@@ -27,7 +27,7 @@ const formattedDate = formatDate(date, "America/New_York", "en-US");
 console.log(formattedDate); // Output: "12 March 2024"
 ```
 
-### Extract Date into an object
+#### Extract Date into an object
 
 ```javascript
 const formatDate = require("dformater");
@@ -47,15 +47,14 @@ Formats a given date into the desired format.
 - timezone (optional): The timezone to use for formatting the date. Defaults to "UTC".
 - locale (optional): The locale to use for formatting. Defaults to "en-US".
 
-### Example
-
-```javascript
-const formatDate = require("dformater");
-
-const date = new Date(); // Current date and time
-const formattedDate = formatDate(date, "America/New_York", "en-US");
-console.log(formattedDate); // Output: "12 March 2024"
-```
+## Change Log
+`12/03/2023`
+Added
+- Deploy dformater for production
+- update readme.md for better understanding the package
+- add api usage
+- add usage list of the package
+- add new feature for Extract the date to object
 
 ## Notes
 
