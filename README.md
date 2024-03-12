@@ -1,5 +1,7 @@
 # dformater
 
+<center>[![npm version](https://badge.fury.io/js/dformater.svg)](//npmjs.com/package/dformater)</center>
+
 A Node.js package to easily format dates into "dd M Y" format with the option to set the timezone dynamically.
 
 ## Installation
