@@ -1,5 +1,5 @@
 // index.test.js
-const formatDate = require("./index");
+const formatDate = require("../index");
 
 test("formats date correctly", () => {
   const date = new Date("2024-03-12");
