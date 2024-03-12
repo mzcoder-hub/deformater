@@ -49,7 +49,6 @@ Formats a given date into the desired format.
 
 ## Change Log
 `12/03/2023`
-Added
 - Deploy dformater for production
 - update readme.md for better understanding the package
 - add api usage
